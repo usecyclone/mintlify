@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "bin",
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "bin"]
+}
