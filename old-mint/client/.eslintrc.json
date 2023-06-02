@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@mintlify/eslint-config-next",
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "ignorePatterns": [
+    "/test",
+    "/stories"
+  ]
+}

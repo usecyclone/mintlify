@@ -1,0 +1,41 @@
+@tailwind base;
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  height: 100%;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  overflow-y: overlay; /* Shows scrollbar over content instead of causing a layout shift */
+  @apply [--scroll-mt:9.5rem] lg:[--scroll-mt:6.3rem];
+}
+
+body {
+  min-height: 100%;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+/* Always allocates space for the scrollbar even if it is not currently overflowing */
+.stable-scrollbar-gutter {
+  scrollbar-gutter: 'stable';
+}
+
+[id^='user-content-fn-'] {
+  display: none;
+}
