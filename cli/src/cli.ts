@@ -17,6 +17,7 @@ const confirm = async (question: string) =>
     });
   });
 
+// @ts-ignore
 const checkPortRecursive: <T>(argv: ArgumentsCamelCase<T>) => Promise<number | undefined> = async (
   argv
 ) => {

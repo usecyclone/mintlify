@@ -55,7 +55,7 @@ var confirm = function (question) { return __awaiter(void 0, void 0, void 0, fun
         return [2 /*return*/, new Promise(function (resolve) {
                 var cmdInterface = createInterface({
                     input: process.stdin,
-                    output: process.stdout,
+                    output: process.stdout
                 });
                 cmdInterface.question(question, function (response) {
                     cmdInterface.close();
@@ -64,6 +64,7 @@ var confirm = function (question) { return __awaiter(void 0, void 0, void 0, fun
             })];
     });
 }); };
+// @ts-ignore
 var checkPortRecursive = function (argv) { return __awaiter(void 0, void 0, void 0, function () {
     var port, _port, confirmed;
     return __generator(this, function (_a) {
