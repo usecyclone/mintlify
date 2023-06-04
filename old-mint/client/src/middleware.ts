@@ -3,7 +3,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { IS_PROD } from './constants';
 import { HOST_NAME, IS_MULTI_TENANT, VERCEL } from './env';
 
-export default function middleware(req: NextRequest) {
+import { NextJsClient } from 'cyclone-nextjs';
+
+const cyclone = new NextJsClient("mintlify", "phc_Belh475IYfPoF9bke7r9ReO3m7WIa21C5ftRvD10Pvs")
+
+function _middleware(req: NextRequest) {
   const url = req.nextUrl;
   const { pathname } = url;
 
@@ -33,3 +37,5 @@ export default function middleware(req: NextRequest) {
 
   return NextResponse.rewrite(url);
 }
+
+export const middleware = cyclone.wrapNextJsMiddleware(_middleware, ['/api/', '/_next/'])
