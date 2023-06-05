@@ -329,7 +329,7 @@
 
 "@babel/runtime@^7.21.0":
   version "7.22.3"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.22.3.tgz"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.3.tgz#0a7fce51d43adbf0f7b517a71f4c3aaca92ebcbb"
   integrity sha512-XsDuspWKLUsxwCp6r7EhsExHtYfbe5oAGQ19kqngTdCPUoPQzOPdUbD/pB9PJiwb2ptYKQDjSJT3R6dC+EPqfQ==
   dependencies:
     regenerator-runtime "^0.13.11"
@@ -710,7 +710,7 @@
 
 "@mintlify/prebuild@^1.0.3":
   version "1.0.3"
-  resolved "https://registry.npmjs.org/@mintlify/prebuild/-/prebuild-1.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/@mintlify/prebuild/-/prebuild-1.0.3.tgz#4df2b293e8051a56229675db6a7f2a2c5fd8797c"
   integrity sha512-DeqdoTMPQQaIdkNf2z//EdGFMO/mfv1tPxi2RodzzEk9jy0s0RYtIx2TF6Hu1AQRBNR8KADWOiftQhF8mhYTeg==
   dependencies:
     fs-extra "^11.1.0"
@@ -720,10 +720,10 @@
   resolved "https://registry.npmjs.org/@mintlify/prettier-config/-/prettier-config-1.0.1.tgz"
   integrity sha512-43rARzj4Xc5ZOuLS3VqgUv3QZVSSSrNaOhFgLWNUyliihj4U7oMk7ZwzriNsa5q02GGgyD84R2cI4OY/6ytAuQ==
 
-"@mintlify/previewing@3.1.34":
+"@mintlify/previewing@npm:@tonyyanga/mintlify_previewing":
   version "3.1.34"
-  resolved "https://registry.npmjs.org/@mintlify/previewing/-/previewing-3.1.34.tgz"
-  integrity sha512-SSmdazW+zPfBDj4RlFFGMUj3VLelx2jEA6s1/mGzPSvwfJ8YqXAMksN7t4XrLy32k3ji1tT6x/y+o1IpUuYkzA==
+  resolved "https://registry.yarnpkg.com/@tonyyanga/mintlify_previewing/-/mintlify_previewing-3.1.34.tgz#e12debce319fccf81dadc6bb8243e5ee5f1dd351"
+  integrity sha512-cv8EDkJgRxSnfMHxoJ6E8GlLSR+O1ViH41vRtfsAawqJJIpV87yJJ6i1aN4/5A1e+xi86jB37JAIEqSRYimlpw==
   dependencies:
     "@apidevtools/swagger-parser" "^10.1.0"
     "@mintlify/prebuild" "^1.0.3"
@@ -755,7 +755,7 @@
 
 "@mintlify/validation@0.1.29":
   version "0.1.29"
-  resolved "https://registry.npmjs.org/@mintlify/validation/-/validation-0.1.29.tgz"
+  resolved "https://registry.yarnpkg.com/@mintlify/validation/-/validation-0.1.29.tgz#d97452490a5335ae1084427e512094d20c332f04"
   integrity sha512-xUlM2T23rizv++NDTsT3JjzuWS1HqbcFlw/WGkO9DlCW8goa/e5JP28EAu7PuEmG6kdoW1wHc3tWi65RVlMNGA==
   dependencies:
     mathjs "^11.8.0"
@@ -1846,7 +1846,7 @@ combined-stream@^1.0.8:
 
 complex.js@^2.1.1:
   version "2.1.1"
-  resolved "https://registry.npmjs.org/complex.js/-/complex.js-2.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/complex.js/-/complex.js-2.1.1.tgz#0675dac8e464ec431fb2ab7d30f41d889fb25c31"
   integrity sha512-8njCHOTtFFLtegk6zQo0kkVX1rngygb/KQI6z1qZxlFI3scluC+LVTCFbrkWjBv4vvLlbQ9t88IPMC6k95VTTg==
 
 concat-map@0.0.1:
@@ -1939,7 +1939,7 @@ debug@4, debug@4.3.4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, de
 
 decimal.js@^10.4.3:
   version "10.4.3"
-  resolved "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.3.tgz"
+  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.4.3.tgz#1044092884d245d1b7f65725fa4ad4c6f781cc23"
   integrity sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==
 
 decode-named-character-reference@^1.0.0:
@@ -2180,7 +2180,7 @@ escape-html@^1.0.3:
 
 escape-latex@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.npmjs.org/escape-latex/-/escape-latex-1.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/escape-latex/-/escape-latex-1.2.0.tgz#07c03818cf7dac250cce517f4fda1b001ef2bca1"
   integrity sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw==
 
 escape-string-regexp@^1.0.5:
@@ -2550,7 +2550,7 @@ format@^0.2.0:
 
 fraction.js@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
 fs-constants@^1.0.0:
@@ -3628,7 +3628,7 @@ markdown-table@^3.0.0:
 
 mathjs@^11.8.0:
   version "11.8.0"
-  resolved "https://registry.npmjs.org/mathjs/-/mathjs-11.8.0.tgz"
+  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-11.8.0.tgz#b02e66461ec068fadf1e90c221121704dc14d8f5"
   integrity sha512-I7r8HCoqUGyEiHQdeOCF2m2k9N+tcOHO3cZQ3tyJkMMBQMFqMR7dMQEboBMJAiFW2Um3PEItGPwcOc4P6KRqwg==
   dependencies:
     "@babel/runtime" "^7.21.0"
@@ -4732,7 +4732,7 @@ rechoir@^0.6.2:
 
 regenerator-runtime@^0.13.11:
   version "0.13.11"
-  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 remark-frontmatter@^4.0.1:
@@ -4916,7 +4916,7 @@ section-matter@^1.0.0:
 
 seedrandom@^3.0.5:
   version "3.0.5"
-  resolved "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz"
+  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
   integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
 
 semver@7.x, semver@^7.3.5, semver@^7.3.7, semver@^7.5.0:
@@ -5183,7 +5183,7 @@ through@^2.3.6, through@^2.3.8:
 
 tiny-emitter@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 tmp@^0.0.33:
@@ -5282,7 +5282,7 @@ type-fest@^0.21.3:
 
 typed-function@^4.1.0:
   version "4.1.0"
-  resolved "https://registry.npmjs.org/typed-function/-/typed-function-4.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/typed-function/-/typed-function-4.1.0.tgz#da4bdd8a6d19a89e22732f75e4a410860aaf9712"
   integrity sha512-DGwUl6cioBW5gw2L+6SMupGwH/kZOqivy17E4nsh1JI9fKF87orMmlQx3KISQPmg3sfnOUGlwVkroosvgddrlg==
 
 typescript@^4.9.5:
@@ -5573,12 +5573,12 @@ yocto-queue@^0.1.0:
 
 zod-to-json-schema@^3.20.3:
   version "3.21.1"
-  resolved "https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.21.1.tgz"
+  resolved "https://registry.yarnpkg.com/zod-to-json-schema/-/zod-to-json-schema-3.21.1.tgz#a24b2737bf361fc516c92421eb59988b6e2fc046"
   integrity sha512-y5g0MPxDq+YG/T+cHGPYH4PcBpyCqwK6wxeJ76MR563y0gk/14HKfebq8xHiItY7lkc9GDFygCnkvNDTvAhYAg==
 
 zod@^3.20.6:
   version "3.21.4"
-  resolved "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.4.tgz#10882231d992519f0a10b5dd58a38c9dabbb64db"
   integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
 
 zwitch@^2.0.0:

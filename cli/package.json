@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
-    "@mintlify/previewing": "3.1.34",
+    "@mintlify/previewing": "npm:@tonyyanga/mintlify_previewing",
     "@octokit/rest": "^19.0.5",
     "axios": "^1.2.2",
     "chalk": "^5.1.0",
