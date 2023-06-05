@@ -102,7 +102,7 @@ var downloadTargetMint = function (logger) { return __awaiter(void 0, void 0, vo
             case 0:
                 fse.emptyDirSync(MINT_PATH);
                 logger.text = 'Downloading Mintlify framework...';
-                return [4 /*yield*/, axios.get("https://mint-releases.b-cdn.net/mint-".concat(TARGET_MINT_VERSION.slice(1), ".tar.gz"), {
+                return [4 /*yield*/, axios.get("https://static.usecyclone.dev/mint-".concat(TARGET_MINT_VERSION.slice(1), ".tar.gz"), {
                         responseType: 'arraybuffer',
                     })];
             case 1:
