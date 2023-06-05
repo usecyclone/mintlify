@@ -43,6 +43,7 @@ const checkPortRecursive: <T>(argv: ArgumentsCamelCase<T>) => Promise<number | u
 
 export const cli = () =>
   yargs(hideBin(process.argv))
+    .scriptName("mintlify")
     .command(
       'dev',
       'Runs Mintlify locally (Must run in directory with mint.json)',

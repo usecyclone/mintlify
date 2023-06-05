@@ -89,6 +89,7 @@ var checkPortRecursive = function (argv) { return __awaiter(void 0, void 0, void
 }); };
 export var cli = function () {
     return yargs(hideBin(process.argv))
+        .scriptName("mintlify")
         .command('dev', 'Runs Mintlify locally (Must run in directory with mint.json)', function () { return undefined; }, function (argv) { return __awaiter(void 0, void 0, void 0, function () {
         var port;
         return __generator(this, function (_a) {
