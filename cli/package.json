@@ -1,5 +1,5 @@
 {
-  "name": "@mintlify/cli",
+  "name": "@tonyyanga/mintlify_cli",
   "version": "3.0.38",
   "description": "The Mintlify CLI",
   "engines": {
