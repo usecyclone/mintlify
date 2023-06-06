@@ -59,7 +59,7 @@
     "babel-plugin-add-react-displayname": "^0.0.5",
     "clean-css": "^4.2.3",
     "clsx": "^1.2.1",
-    "cyclone-nextjs": "^1.0.2",
+    "cyclone-nextjs": "^1.0.3",
     "date-and-time": "^2.4.1",
     "eslint-config-next": "^13.0.6",
     "fathom-client": "^3.5.0",
