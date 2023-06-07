@@ -1921,10 +1921,10 @@ css-what@^6.1.0:
   resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
 
-cyclone-node@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/cyclone-node/-/cyclone-node-1.0.5.tgz#4f66a7a36ca3fb0f86b474e99b0eae586ec2b7bd"
-  integrity sha512-7eriAMqSXuCms0eOtaG5hsNZs5Lj1MoDsnydHCHhP6gguflUGeE5WY77kgSEtOUBL1zRKCa+xx9PMggZkq7/0A==
+cyclone-node@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/cyclone-node/-/cyclone-node-1.0.6.tgz#552b87c1a77b54c851c2a478213b4161175251f1"
+  integrity sha512-TJl3850hoaRGmwGt4itwJ2i3qncY3UdFPiwcf5p96wNBavh+bSy6t1WafCBDDjMTi0nEUGbH+2Pq+pR26eFF/Q==
   dependencies:
     "@types/node" "^20.2.5"
     node-machine-id "^1.1.12"
