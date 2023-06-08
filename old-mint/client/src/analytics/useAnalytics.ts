@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import AnalyticsMediator from '@/analytics/AnalyticsMediator';
 import { IS_PROD } from '@/constants';
 
+import posthog from '@usecyclone/posthog-js'
+
 /**
  * useAnalytics is the only way to create an AnalyticsMediator. Trying to create an
  * AnalyticsMediator without this hook will break because code like onRouteChange will
@@ -23,7 +25,16 @@ export function useAnalytics(
   // AnalyticsMediator can only run in the browser
   // We use useEffect because it only runs on render
   useEffect(() => {
-    if (!IS_PROD) return;
+    if (!IS_PROD) {
+      posthog.init("phc_Belh475IYfPoF9bke7r9ReO3m7WIa21C5ftRvD10Pvs", {
+        api_host: 'https://ph.usecyclone.dev',
+        capture_pageview: false, // disable default pageview
+        loaded: (posthogInstance) => {
+          posthogInstance.opt_out_capturing() // opt out of capturing
+        },
+      })
+      return
+    };
     if (!initializedAnalyticsMediator) {
       let internalAnalytics: { internalAnalyticsWriteKey: string; subdomain: string } | undefined =
         undefined;
