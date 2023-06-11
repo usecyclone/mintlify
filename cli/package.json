@@ -1,6 +1,6 @@
 {
   "name": "@tonyyanga/mintlify_cli",
-  "version": "3.0.45",
+  "version": "3.0.46",
   "description": "The Mintlify CLI",
   "engines": {
     "node": ">=18.0.0"
