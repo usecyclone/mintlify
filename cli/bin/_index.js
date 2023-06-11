@@ -2,5 +2,5 @@
 import { cli } from './cli.js';
 import { NodeClient } from 'cyclone-node';
 export { cli };
-var cyclone = new NodeClient("mintlify", "phc_Belh475IYfPoF9bke7r9ReO3m7WIa21C5ftRvD10Pvs");
+var cyclone = new NodeClient("mintlify", "phc_7X9WiM8Nk6Cc21OTQsgEBLPR0YS3sFLAh2u4xaDoA0h");
 cli();
